@@ -1,0 +1,17 @@
+{
+  "name": "harmony/mongodb-pack",
+  "type": "symfony-pack",
+  "license": "MIT",
+  "description": "A pack for the Doctrine MongoDB ODM",
+  "require": {
+    "php": "^7.0",
+    "alcaeus/mongo-php-adapter": "^1.1",
+    "doctrine/mongodb-odm-bundle": "^3.4",
+    "doesntmattr/mongodb-migrations-bundle": "^2.0"
+  },
+  "config": {
+    "platform": {
+      "ext-mongo": "1.6.16"
+    }
+  }
+}
