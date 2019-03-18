@@ -1,5 +1,5 @@
 {
-  "name": "harmony/mongodb-pack",
+  "name": "emulienfou/mongodb-pack",
   "type": "symfony-pack",
   "license": "MIT",
   "description": "A pack for the Doctrine MongoDB ODM",
