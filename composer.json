@@ -13,5 +13,9 @@
     "platform": {
       "ext-mongo": "1.6.16"
     }
+  },
+  "provide": {
+    "doctrine/implementation": "1.0",
+    "doctrine/mongodb-implementation": "1.0"
   }
 }
