@@ -8,3 +8,9 @@ To do this, run the following command before requiring this package:
 ```bash
 composer config "platform.ext-mongo" "1.6.16"
 ```
+
+Provide virtual packages
+------------------------
+This pack also provide 2 virtual packages who can be used to require a doctrine database support:
+* `doctrine/implementation`
+* `doctrine/mongodb-implementation`
