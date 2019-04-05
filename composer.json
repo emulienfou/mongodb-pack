@@ -8,7 +8,7 @@
         "php": "^7.0",
         "alcaeus/mongo-php-adapter": "^1.1",
         "doctrine/mongodb-odm": "dev-master",
-        "doctrine/mongodb-odm-bundle": "dev-master",
+        "doctrine/mongodb-odm-bundle": "^3.4",
         "doesntmattr/mongodb-migrations-bundle": "^2.0"
     },
     "config": {
