@@ -1,21 +1,23 @@
 {
-  "name": "emulienfou/mongodb-pack",
-  "type": "symfony-pack",
-  "license": "MIT",
-  "description": "A pack for the Doctrine MongoDB ODM",
-  "require": {
-    "php": "^7.0",
-    "alcaeus/mongo-php-adapter": "^1.1",
-    "doctrine/mongodb-odm-bundle": "^3.4",
-    "doesntmattr/mongodb-migrations-bundle": "^2.0"
-  },
-  "config": {
-    "platform": {
-      "ext-mongo": "1.6.16"
+    "name": "emulienfou/mongodb-pack",
+    "type": "symfony-pack",
+    "license": "MIT",
+    "description": "A pack for the Doctrine MongoDB ODM",
+    "repositories": [{"type": "vcs", "url": "https://github.com/emulienfou/mongodb-odm"}],
+    "require": {
+        "php": "^7.0",
+        "alcaeus/mongo-php-adapter": "^1.1",
+        "doctrine/mongodb-odm": "dev-master",
+        "doctrine/mongodb-odm-bundle": "dev-master",
+        "doesntmattr/mongodb-migrations-bundle": "^2.0"
+    },
+    "config": {
+        "platform": {
+            "ext-mongo": "1.6.16"
+        }
+    },
+    "provide": {
+        "doctrine/implementation": "1.0",
+        "doctrine/mongodb-implementation": "1.0"
     }
-  },
-  "provide": {
-    "doctrine/implementation": "1.0",
-    "doctrine/mongodb-implementation": "1.0"
-  }
 }
