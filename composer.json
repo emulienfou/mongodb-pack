@@ -3,11 +3,11 @@
     "type": "symfony-pack",
     "license": "MIT",
     "description": "A pack for the Doctrine MongoDB ODM",
-    "repositories": [{"type": "vcs", "url": "https://github.com/emulienfou/mongodb-odm"}],
+    "repositories": [{"type": "vcs","url": "https://github.com/emulienfou/DoctrineMongoDBBundle"}],
     "require": {
         "php": "^7.0",
         "alcaeus/mongo-php-adapter": "^1.1",
-        "doctrine/mongodb-odm": "dev-master",
+        "doctrine/mongodb-odm": "1.3.x-dev",
         "doctrine/mongodb-odm-bundle": "dev-event-subscriber",
         "doesntmattr/mongodb-migrations-bundle": "^2.0"
     },
